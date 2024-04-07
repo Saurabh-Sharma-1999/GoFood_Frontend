@@ -1,23 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Grid, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { Facebook, Twitter, Instagram } from '@material-ui/icons';
-import './Footer.css'; // Import the CSS file
+import { Container, Grid, IconButton } from '@mui/material';
+import { styled } from '@mui/material/styles'; // Update import
+import { Facebook, Twitter, Instagram } from '@mui/icons-material';
+import './Footer.css';
 
-const useStyles = makeStyles((theme) => ({
-    footerContent: {
-        textAlign: 'center',
-    },
-}));
+// Define styles using the styled API
+const FooterContent = styled('div')({
+    textAlign: 'center',
+});
 
 const Footer = () => {
-    const classes = useStyles();
-
     return (
         <footer className="footer">
             <Container maxWidth="lg">
-                <Grid container spacing={3} className={classes.footerContent}>
+                <Grid container spacing={3} component={FooterContent}>
                     <Grid item xs={12} sm={4}>
                         <h4>Quick Links</h4>
                         <div>
