@@ -7,7 +7,7 @@ export default function Cart() {
   if (data.length === 0) {
     return (
       <div>
-        <div className=' w-100 text-center fs-3 container'>The Cart is Empty!</div>
+        <div className=' w-100 text-center fs-3 container text-light'>The Cart is Empty!</div>
       </div>
     )
   }
@@ -66,7 +66,7 @@ export default function Cart() {
                 <td>
                   <button type="button" className="btn p-0" onClick={() => { dispatch({ type: "REMOVE", index: index }) }}>
                     {/* Font Awesome Icon */}
-                    <i className="fas fa-trash" />
+                    <i className="fas fa-trash text-danger" />
                   </button>
                 </td>
               </tr>
