@@ -51,7 +51,7 @@ export default function CreateUser() {
     return (
         <div className='wrapper'>
             <div className='mb-3'><Navbar/></div>
-            <div className='content'>
+            <div className='content mb-3'>
         <div className='container'>
             <h2>Join Us! Create your account to get started</h2>
             <form onSubmit={handleSubmit}>
