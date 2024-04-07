@@ -21,8 +21,7 @@ export default function Cart() {
     console.log("User Email:", userEmail); // Add this line for debugging
     // console.log(data,localStorage.getItem("userEmail"),new Date())
     let response = await fetch("https://gofood-backend-vbo3.onrender.com/order", {
-      // credentials: 'include',
-      // Origin:"http://localhost:3000/login",
+     
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
