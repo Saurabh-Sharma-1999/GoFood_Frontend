@@ -55,7 +55,7 @@ export default function Cart() {
               <th scope='col' ></th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className='text-light'>
             {data.map((food, index) => (
               <tr key={index}>
                 <th scope='row'>{index + 1}</th>
