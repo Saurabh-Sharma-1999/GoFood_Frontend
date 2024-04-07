@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "20.9.0"
+  },
   "name": "mernapp",
   "private": true,
   "version": "0.0.0",
