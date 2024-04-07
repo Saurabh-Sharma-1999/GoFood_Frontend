@@ -75,7 +75,7 @@ export default function Home() {
                         <div className="fs-3 m-3">{data.CategoryName}</div>
                         <hr />
                         {filteredItems.map((filterItems) => (
-                            <div key={filterItems._id} className="col-12 col-md-6 col-lg-3">
+                            <div key={filterItems._id} className="col-12 d-flex justify-content-center col-md-6 col-lg-3">
                                 <Card foodItem={filterItems} options={filterItems.options[0]} />
                             </div>
                         ))}
