@@ -19,8 +19,8 @@ export default function Home() {
             },
         });
         response = await response.json();
-        setFoodItem(response[0]);
-        setFoodCat(response[1]);
+        setFoodItem(response[0] || []);
+        setFoodCat(response[1] || []);
         // console.log(response[0], response[1]);
     }
     useEffect(() => {
