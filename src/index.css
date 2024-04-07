@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "NHaasGroteskDSPro-65Md" !important;
+}
+
+
+body {
+  margin: 0;
+  /* font-family: "Oswald", sans-serif; */
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  
+ 
+}
+
+#carousel{
+  max-height: 500px;
+}
+
+
