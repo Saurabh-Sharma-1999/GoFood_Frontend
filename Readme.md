@@ -36,13 +36,29 @@ Welcome to GoFood, GoFood is a full-stack web application that offers a delightf
 
 ## Screenshots
 
+### Home Page
+
 ![Home Page](src/assets/HomePage.png)
+
+### Food Category
 ![Food Category](src/assets/foodCategory.png)
+
+### Footer Page
 ![Footer Page](src/assets/Footer.png)
+
+### Login Page
 ![Login Page](src/assets/Login.png)
+
+### Signup Page
 ![Signup Page](src/assets/Signup.png)
+
+### Search Food
 ![Search Food](src/assets/search.png)
+
+### Cart Section
 ![Cart Section](src/assets/myCart.png)
+
+### My Order
 ![My Order](src/assets/myOrder.png)
 
 ## Installation
