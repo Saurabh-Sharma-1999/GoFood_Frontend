@@ -10,6 +10,7 @@ Welcome to GoFood, GoFood is a full-stack web application that offers a delightf
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [API EndPoints](#api-endpoints)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -33,6 +34,13 @@ Welcome to GoFood, GoFood is a full-stack web application that offers a delightf
 - **Database**: MongoDB Atlas
 - **Authentication**: JSON Web Tokens (JWT), bcrypt
 - **Styling**: Custom CSS, Bootstrap
+
+## API EndPoints
+- **POST /users**: Create a new user account.
+- **POST /login**: Log in with existing user credentials.
+- **POST /foodData**: Retrieve food data for display.
+- **POST /order**: Place a new food order.
+- **POST /myOrder**: Retrieve order history for the logged-in user.
 
 ## Screenshots
 
